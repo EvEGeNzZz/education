@@ -1,0 +1,50 @@
+body {
+  background-color: #580692;
+}
+
+a.foo {
+  padding: 5px 10px;
+  background: #9c3;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a.foo:hover,
+a.foo:focus {
+  color: #030;
+  background: #690;
+}
+
+#nav {
+  float: right;
+  padding: 42px 0 0 30px;
+  list-style: none;
+}
+#nav li {
+  float: left;
+  margin: 0 0 0 5px;
+}
+
+#nav li a {
+  text-decoration: none;
+  padding: 5px 15px;
+  font-weight: bold;
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#nav li a:hover,
+#nav li a:focus {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
